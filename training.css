@@ -1,6 +1,8 @@
 *{
     margin: 0;
+    
 }
+
 .nav_ {
     width: 100%;
     background-color: #a8cddc;
@@ -10,6 +12,7 @@
     justify-content: space-between;
     position: fixed;
     box-shadow: 10px 10px 5px #aaaaaa53;
+    z-index: 1;
 
   }
   
@@ -44,13 +47,14 @@
     font-weight: bolder;
     padding-top: 10%;
     padding-right: 75%;
-    /* padding-left: 15%; */
-    font-size: 80px;
+    font-size: 50px;
   }
 
   hr {
     border: 1px solid #353131;
     margin-bottom: 25px;
+    text-shadow: 2px 4px 4px rgb(201, 189, 189);
+
   }
   
   .info{
@@ -69,6 +73,8 @@
   .info p span{
     text-shadow: 2px 4px 4px rgb(201, 189, 189);
     font-weight: bolder;
+    font-size: 30px;
+    /* text-decoration: underline blue; */
   }
   
   .info p{
@@ -77,14 +83,10 @@
     
   }
   
-  .info hr{
-    width: 200px;
-    height: 5px ;
-    background-color: #0f4ecb;
-  }
+  
 
   .video{
-    margin: 65px 166px 40px 166px;
+    margin: 40px 166px 40px 166px;
     /* border:2px double blue; */
     padding: 2rem;
     border-radius: 20px;
@@ -94,14 +96,10 @@
     justify-content:space-evenly;
     align-items: center;
 }
-.video hr{
-  width: 200px;
-    height: 5px ;
-    background-color: #0f4ecb;
-    margin-left: 100px;
-}
+
 .video h1{
   text-shadow: 2px 4px 4px rgb(201, 189, 189);
+  text-decoration: underline blue;
 }
 .video iframe{
   padding: 2rem;
@@ -147,6 +145,12 @@
   text-align: center;
   box-shadow: 10px 10px 5px #aaaaaa;
   border-radius: 10px;
+  transition: 0.5s;
+  
+  }
+
+.cris:hover{
+    transform: scale(1.04);
 }
 
 
@@ -177,15 +181,10 @@ button:hover{
     align-items: center;
 }
 
-.youtube hr{
-    width: 200px;
-    text-align: center;
-    height: 5px ;
-    background-color: #0f4ecb;
-    margin-left: 100px;
-}
+
 .youtube h1{
   text-shadow: 2px 4px 4px rgb(201, 189, 189);
+  text-decoration: underline blue;
 }
 
 .partner{
@@ -196,16 +195,18 @@ button:hover{
 }
 .partner  img{
   width:150px;
+  transition: 0.5s;
 }
-.partner  hr{
-  width: 100px;
-  text-align: center;
-  height: 5px ;
-  background-color: #0f4ecb;
-  margin-left: 50px;
+
+.partner img:hover{
+  transform: scale(1.1);
 }
+
 .partner  h1{
+  font-size: 30px;
+  padding: 12px;
   text-shadow: 2px 4px 4px rgb(201, 189, 189);
+  /* text-decoration: underline blue; */
 }
 
 .client{
@@ -216,16 +217,17 @@ button:hover{
 }
 .client  img{
   width:150px;
+  transition: 0.5s;
 }
-.client  hr{
-  width: 100px;
-  text-align: center;
-  height: 5px ;
-  background-color: #0f4ecb;
-  margin-left: 50px;
+.client img:hover{
+  transform: scale(1.1);
 }
+
 .client  h1{
+  font-size: 30px;
+  padding: 12px;
   text-shadow: 2px 4px 4px rgb(201, 189, 189);
+  /* text-decoration: underline blue; */
 }
 
 
